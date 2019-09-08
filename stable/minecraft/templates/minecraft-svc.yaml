@@ -9,6 +9,7 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
   type: {{ .Values.minecraftServer.serviceType }}
+  loadBalancerIP: {{ .Values.minecraftServer.loadBalancerIP }}
   ports:
   - name: minecraft
     port: 25565

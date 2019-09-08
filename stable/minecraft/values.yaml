@@ -126,6 +126,7 @@ minecraftServer:
   # Options like -X that need to proceed general JVM options
   jvmXXOpts: ""
   serviceType: LoadBalancer
+  loadBalancerIP:
   rcon:
     # If you enable this, make SURE to change your password below.
     enabled: false
